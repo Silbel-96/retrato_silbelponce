@@ -1,4 +1,6 @@
-void silbel() {
+void silbel(float posx, float posy) {
+  push();
+  translate(posx, posy)
   //cara
   circle(m*4, m*4, m*4);
   //orejas
@@ -25,4 +27,5 @@ void silbel() {
   arc(m*4,m*5,m,m,radians(0),radians(180));
   line(m/2+m*3,m*5,m/2+m*4,m*5);
   arc(m*4,m/2+m*5,m/2,m/2,radians(-160),radians(-10));
+  pop();
  }
