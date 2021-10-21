@@ -30,4 +30,5 @@ void silbel(){
   arc(m*4,m/2+m*5,m/2,m/2,radians(-160),radians(-10));
   //line(m*4,m*5,m*4,m/2+m*5);
   //arc(m*4,m*5,m,m,radians(45),radians(135));
+  noLoop();
 }
