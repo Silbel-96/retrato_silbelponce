@@ -1,7 +1,6 @@
-void silbel(){
+void silbel() {
   //cara
   circle(m*4, m*4, m*4);
-  //arc(m*5,m*5,m*4,m*4,radians(0),radians(180));
   //orejas
   circle(m/2+m*6, m/4+m*4, m);
   circle(m/2+m*6, m/4+m*4, m/5);
@@ -18,8 +17,6 @@ void silbel(){
   //facciones
   circle(m*5, m/4+m*4, m);
   circle(m*3, m/4+m*4, m);
-  //circle(m*5, m/4+m*4, m/3);
-  //circle(m*3, m/4+m*4, m/3);
   circle(m*5, m/4+m*4, m/2);
   circle(m*3, m/4+m*4, m/2);
   circle(m*3, m*5, m/10);
@@ -28,7 +25,4 @@ void silbel(){
   arc(m*4,m*5,m,m,radians(0),radians(180));
   line(m/2+m*3,m*5,m/2+m*4,m*5);
   arc(m*4,m/2+m*5,m/2,m/2,radians(-160),radians(-10));
-  //line(m*4,m*5,m*4,m/2+m*5);
-  //arc(m*4,m*5,m,m,radians(45),radians(135));
-  noLoop();
-}
+ }
