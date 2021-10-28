@@ -1,6 +1,6 @@
 void silbel(float posx, float posy) {
   push();
-  translate(posx, posy)
+  translate(posx, posy);
   //cara
   circle(m*4, m*4, m*4);
   //orejas
